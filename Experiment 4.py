@@ -24,10 +24,12 @@ print(f'Gamma is {m:.2f} with an error of {dm:.2f}')
 dh1 = 0.01
 dd = 0.01
 
-# finding the precision and accuracy of the values of the value obtained
+# finding the precision and accuracy 
+  of the values of the value obtained
 precision = (dm/m) * 100
 accuracy = (m/1.4) * 100
-print(f'With a precision of {precision:.2f}% and an accuracy of {accuracy:.2f}%')
+print(f'With a precision of {precision:.2f}% 
+        and an accuracy of {accuracy:.2f}%')
 
 # defining the fonts and sizes to be used
 plt.rcParams['font.family'] = 'STIXGeneral'
@@ -51,7 +53,5 @@ plt.xlabel(r'$(h_1-h_2)$/m')
 plt.ylabel(r'$h_1$/m')
 plt.title(r'A plot of $h_1$ vs $(h_1-h_2)$')
 plt.legend()
-plt.tight_layout()
 plt.savefig('h1vsd.png', dpi=800)
 plt.show()
-
