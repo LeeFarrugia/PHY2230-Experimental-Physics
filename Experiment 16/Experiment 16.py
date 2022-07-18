@@ -51,14 +51,11 @@ def merr(d, e, dm):
     de = db.subs({a : c, b : m}).evalf()
     return de*dm
 de = abs(merr(c, m, dm))
-print(f'The specific charge of electrons is {e:.2e}, 
-        with an error of {de:.2e}')
-# finding the precision and accuracy of the values of 
-    the value obtained
+print(f'The specific charge of electrons is {e:.2e}, with an error of {de:.2e}')
+# finding the precision and accuracy of the values of the value obtained
 precision = (de/e) * 100
 accuracy = (e/ae) * 100
-print(f'With a precision of {precision:.2f}% 
-        and an accuracy of {accuracy:.2f}%')
+print(f'With a precision of {precision:.2f}% and an accuracy of {accuracy:.2f}%')
 
 # defining the fonts and sizes to be used
 plt.rcParams['font.family'] = 'STIXGeneral'
@@ -75,8 +72,8 @@ plt.errorbar(X, Y, xerr=dX, yerr=dI, fmt='o', color='k',
              ecolor='grey', label='Data Points')
 plt.plot(X, trendline, color='k', label='Fit')
 plt.minorticks_on()
-plt.grid(b=True, which='major', linestyle='-')
-plt.grid(b=True, which='minor', linestyle='--')
+plt.grid(visible=True, which='major', linestyle='-')
+plt.grid(visible=True, which='minor', linestyle='--')
 plt.xlabel(r'$Co$-$oridnates^2$/m$^2$')
 plt.ylabel(r'$I^2$/A$^2$')
 plt.title(r'$I^2$/A$^2$ vs $Co$-$ordinates^2$/m$^2$')
