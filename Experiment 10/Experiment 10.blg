@@ -1,0 +1,18 @@
+[0] Config.pm:307> INFO - This is Biber 2.17
+[0] Config.pm:310> INFO - Logfile is 'Experiment 10.blg'
+[219] biber-MSWIN32:340> INFO - === 
+[295] Biber.pm:418> INFO - Reading 'Experiment 10.bcf'
+[425] Biber.pm:972> INFO - Found 2 citekeys in bib section 0
+[442] Biber.pm:4383> INFO - Processing section 0
+[468] Biber.pm:4574> INFO - Looking for bibtex file 'Bibliography.bib' for section 0
+[519] bibtex.pm:1713> INFO - LaTeX decoding ...
+[533] bibtex.pm:1518> INFO - Found BibTeX data source 'Bibliography.bib'
+[607] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[607] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[607] Biber.pm:4203> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'en-US'
+[607] Biber.pm:4209> INFO - No sort tailoring available for locale 'en-US'
+[638] bbl.pm:654> INFO - Writing 'Experiment 10.bbl' with encoding 'UTF-8'
+[640] bbl.pm:757> INFO - Output to Experiment 10.bbl
+[640] Biber.pm:130> WARN - legacy month field 'Mar' in entry 'abel2019' is not an integer - this will probably not sort properly.
+[640] Biber.pm:130> WARN - legacy month field 'Mar' in entry 'taylor2019' is not an integer - this will probably not sort properly.
+[640] Biber.pm:132> INFO - WARNINGS: 2
